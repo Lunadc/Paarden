@@ -81,7 +81,7 @@
 <body>
   <main class="card">
     <div class="header">
-      <img class="photo" src="paard.jpg" alt="Foto van paard" />
+      <img class="photo" src="noortje.jpg" alt="Foto van paard" />
       <h1>Naam paard</h1>
       <p class="subtitle">Ras • Leeftijd • Stalnummer</p>
     </div>
