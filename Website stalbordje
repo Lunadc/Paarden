@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Profiel paard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f7f1e8;
+      color: #3b2a1f;
+    }
+
+    .card {
+      max-width: 430px;
+      margin: 0 auto;
+      min-height: 100vh;
+      padding: 24px;
+      box-sizing: border-box;
+    }
+
+    .header {
+      background: #fffaf3;
+      border-radius: 28px;
+      padding: 24px;
+      box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+      text-align: center;
+    }
+
+    .photo {
+      width: 140px;
+      height: 140px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 5px solid #d7b98c;
+    }
+
+    h1 {
+      margin-bottom: 4px;
+      font-size: 30px;
+    }
+
+    .subtitle {
+      opacity: 0.75;
+      margin-top: 0;
+    }
+
+    .section {
+      background: white;
+      border-radius: 22px;
+      padding: 18px;
+      margin-top: 18px;
+      box-shadow: 0 5px 16px rgba(0,0,0,0.06);
+    }
+
+    .item {
+      margin: 10px 0;
+      font-size: 16px;
+    }
+
+    .label {
+      font-weight: bold;
+      color: #8a5d32;
+    }
+
+    .emergency {
+      display: block;
+      text-align: center;
+      margin-top: 24px;
+      background: #b3261e;
+      color: white;
+      padding: 18px;
+      border-radius: 20px;
+      text-decoration: none;
+      font-size: 20px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="header">
+      <img class="photo" src="paard.jpg" alt="Foto van paard" />
+      <h1>Naam paard</h1>
+      <p class="subtitle">Ras • Leeftijd • Stalnummer</p>
+    </div>
+
+    <div class="section">
+      <div class="item"><span class="label">Eigenaar:</span> Naam eigenaar</div>
+      <div class="item"><span class="label">Karakter:</span> Lief, gevoelig, rustig</div>
+      <div class="item"><span class="label">Voeding:</span> Hooi + krachtvoer 2x per dag</div>
+      <div class="item"><span class="label">Medisch:</span> Geen bijzonderheden</div>
+      <div class="item"><span class="label">Dierenarts:</span> Naam dierenarts</div>
+    </div>
+
+    <a class="emergency" href="tel:+32470123456">
+      Noodgeval: bel eigenaar
+    </a>
+  </main>
+</body>
+</html>
